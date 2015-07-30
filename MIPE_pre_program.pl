@@ -24,8 +24,9 @@
 
 
 ###################################################################################################################################
-##Dependence: Linux, mothur v1.33 
+##Dependence: Linux, mothur v1.33, ncbi blast tools. 
 # Copy mothur into the working directory, then input: chmod 755 mothur
+# NCBI BLAST tools should be in environment variable.
 #
 ##Put "silva.SSU75seeds.fasta" and input file into the working directory.
 #
