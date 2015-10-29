@@ -28,7 +28,7 @@
 # Copy mothur into the working directory, then input: chmod 755 mothur
 #
 #
-##Database in need: v119silva.SSU.fasta, alignsilva.LSU.fasta, v119fangsilva.SSU.silva.tax, v119silva.LSU.silva.tax, v119silva.SSU_PICK.fasta.
+##Database in need: v119silva.SSU.fasta, v119silva.LSU.fasta, v119fangsilva.SSU.silva.tax, v119silva.LSU.silva.tax, v119silva.SSU_PICK.fasta.
 # Put them and input file, primer file, reference file into the working directory.
 #
 #
