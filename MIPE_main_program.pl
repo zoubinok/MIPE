@@ -166,7 +166,7 @@ my $domain_selected=$opt_b;
 # These names should change when analyzing functional gene sequences.
 
 my $ssu_template='v119silva.SSU.fasta';    ##If you want to change database, change these four file names.
-my $lsu_template='alignsilva.LSU.fasta';   ##If you do not want to do LSU alignment, do not add this file into the working directory.
+#my $lsu_template='alignsilva.LSU.fasta';   ##If you do not want to do LSU alignment, do not add this file into the working directory.
 my $taxo_ref='v119fangsilva.SSU.silva.tax'; ##".silva.tax" is canned format, do not change it.
 my $greengene='v119silva.SSU_PICK.fasta';   ##It is a custom SILVA database to evaluate 27F and 1492R, greengene is also available.
 
@@ -403,7 +403,7 @@ while(my $line=<TAXO>)
 	if($taxo[0]=~m/^$domain_name\(([0-9]{1,4})\)/){
 		if($1 >= $cutoff_of_taxo_bootstrap){
 			print DOMAIN "$item[0]\n";
-			$taxo_info{"$item[0]"}="$taxo[0];$taxo[1];$taxo[2]"; ##$taxo_info{"$item[0]"}="$taxo[0];$taxo[1];$taxo[2];$taxo[3];$taxo[4];$taxo[5]"; is also OK.
+			$taxo_info{"$item[0]"}="$taxo[0];$taxo[1];$taxo[2];$taxo[3];$taxo[4];$taxo[5]"; ##$taxo_info{"$item[0]"}="$taxo[0];$taxo[1];$taxo[2];$taxo[3];$taxo[4];$taxo[5]"; is also OK.
 		}
 	}
 }
@@ -1306,9 +1306,10 @@ foreach my $pname (@primer_names)
 
    }
    
-   for (my $i=1;$i<=3;$i++) ##for (my $i=1;$i<=6;$i++) ##if you change line 354 to get deeper taxonomy, you have to change this line.
+   for (my $i=1;$i<=6;$i++) ##for (my $i=1;$i<=6;$i++) ##if you change line 354 to get deeper taxonomy, you have to change this line.
    {      
-      foreach my $line (@count_record)
+      print STAT "Taxonomy\tmatch\tunmatch\tmatch_percent\n";
+	  foreach my $line (@count_record)
       {
           next unless $line=~/[a-zA-Z]/;
           next unless $line=~/\-$i\t/;
