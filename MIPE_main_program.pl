@@ -28,7 +28,7 @@
 # Copy mothur into the working directory, then input: chmod 755 mothur
 #
 #
-##Database in need: v119silva.SSU.fasta, alignsilva.LSU.fasta, v119fangsilva.SSU.silva.tax, v119silva.SSU_PICK.fasta.
+##Database in need: v119silva.SSU.fasta, v119silva.LSU.fasta, v119fangsilva.SSU.silva.tax, v119silva.SSU_PICK.fasta.
 # Put them and input file, primer file, reference file into the working directory.
 #
 #
@@ -166,7 +166,7 @@ my $domain_selected=$opt_b;
 # These names should change when analyzing functional gene sequences.
 
 my $ssu_template='v119silva.SSU.fasta';    ##If you want to change database, change these four file names.
-#my $lsu_template='alignsilva.LSU.fasta';   ##If you do not want to do LSU alignment, do not add this file into the working directory.
+#my $lsu_template='v119silva.LSU.fasta';   ##If you do not want to do LSU alignment, do not add this file into the working directory.
 my $taxo_ref='v119fangsilva.SSU.silva.tax'; ##".silva.tax" is canned format, do not change it.
 my $greengene='v119silva.SSU_PICK.fasta';   ##It is a custom SILVA database to evaluate 27F and 1492R, greengene is also available.
 
