@@ -1327,7 +1327,7 @@ foreach my $pname (@primer_names)
    
    for (my $i=1;$i<=6;$i++) ##for (my $i=1;$i<=6;$i++) ##if you change line 426 to get deeper taxonomy, you have to change this line.
    {      
-      print STAT "Taxonomy\tmatch\tunmatch\tmatch_percent\n";
+      print STAT "Taxonomy\tmatch\tunmatch\tmatch_rates\n";
 	  foreach my $line (@count_record)
       {
           next unless $line=~/[a-zA-Z]/;
