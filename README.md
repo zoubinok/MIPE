@@ -47,3 +47,5 @@ $./mothur "#get.seqs(fasta=SILVA_119_LSURef_tax_silva_full_align_trunc.fasta,acc
 
 $mv SILVA_119_LSURef_tax_silva_full_align_trunc.pick.fasta v119silva.LSU.fasta
 
+Citing MIPE: Zou, B., Li, J., Zhou, Q., & Quan, Z. X. (2017). MIPE: A metagenome-based community structure explorer and SSU primer evaluation tool. PloS one, 12(3), e0174609.
+
