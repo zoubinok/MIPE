@@ -11,7 +11,7 @@ MIPE_main_program.pl does SSU taxonomy by mothur v1.33.3 and evaluates SSU prime
 
 MIPE_main_program_metatranscriptome.pl does SSU and LSU taxonomy with mothur v1.33.3 and evaluates SSU primer binding sites and calculate primer coverage.
 
-########################################################
+#######################################################################################################################################
 Platform: Linux
 Installation: MIPE contains somes perl scripts. No need to install MIPE but you need to download MIPE dependences.
 
@@ -46,6 +46,6 @@ $gunzip -c SILVA_119_LSURef_tax_silva_full_align_trunc.fasta.gz > SILVA_119_LSUR
 $./mothur "#get.seqs(fasta=SILVA_119_LSURef_tax_silva_full_align_trunc.fasta,accnos=v119silva.LSU.silva.tax)" 
 
 $mv SILVA_119_LSURef_tax_silva_full_align_trunc.pick.fasta v119silva.LSU.fasta
-
+#######################################################################################################################################
 Citing MIPE: Zou, B., Li, J., Zhou, Q., & Quan, Z. X. (2017). MIPE: A metagenome-based community structure explorer and SSU primer evaluation tool. PloS one, 12(3), e0174609.
 
