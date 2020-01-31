@@ -1,0 +1,92 @@
+8R3:
+AGAGTTTGATCATGGCTCAG
+Length:20
+
+Table 1
+Matching	6
+0 mismatch(es)	3
+1 mismatch(es)	3
+2 mismatch(es)	0
+3 mismatch(es)	1
+4 mismatch(es)	2
+5 mismatch(es)	0
+6 mismatch(es)	0
+7 mismatch(es)	0
+8 mismatch(es)	1
+
+Table 2
+Completeness cutoff	Number of seq	Coverage rates
+0.1	10	0.6
+0.2	10	0.6
+0.3	10	0.6
+0.4	10	0.6
+0.5	10	0.6
+0.6	10	0.6
+0.7	10	0.6
+0.8	10	0.6
+0.9	9	0.666666666666667
+1	9	0.666666666666667
+Total	10	
+
+
+Table 3: Most frequent mismatch
+1	G-substitution	1
+2	A-substitution	1
+4	C-substitution	1
+5	A-substitution	2
+5	C-insertion	1
+5	Deletion	1
+6	A-substitution	1
+6	C-insertion	1
+6	Deletion	1
+8	T-substitution	1
+9	T-substitution	1
+9	G-substitution	1
+14	A-substitution	1
+17	C-substitution	1
+18	A-substitution	1
+19	G-substitution	1
+20	A-substitution	1
+
+Table 4: Most frequent unmatching primer-binding sites
+===CA===T====A======	1
+======c==============	1
+=====c===============	1
+=====A==============	1
+GA==A===============	1
+....================	1
+====dd=TG=======CAGA	1
+====================	3
+
+Table 5: Number of mismatches at each position
+	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+A-substitution		1			2	1								1				1		1
+T-substitution								1	1											
+C-substitution				1													1			
+G-substitution	1								1										1	
+a-insertion																				
+t-insertion																				
+c-insertion					1	1														
+g-insertion																				
+deletion					1	1														
+missing	1	1	1	1																
+
+Taxonomy	match	unmatch	match_rates
+Bacteria-1	5	3	0.625
+
+Taxonomy	match	unmatch	match_rates
+Proteobacteria-2	5	3	0.625
+
+Taxonomy	match	unmatch	match_rates
+unclassified-3	2	1	0.666666666666667
+Gammaproteobacteria-3	3	2	0.6
+
+Taxonomy	match	unmatch	match_rates
+unclassified-4	5	3	0.625
+
+Taxonomy	match	unmatch	match_rates
+unclassified-5	5	3	0.625
+
+Taxonomy	match	unmatch	match_rates
+unclassified-6	5	3	0.625
+

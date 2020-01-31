@@ -1,0 +1,14 @@
+1	Bacteria(100);Proteobacteria(97);Gammaproteobacteria(97);Enterobacteriales(80);Enterobacteriaceae(80);unclassified;
+2short-4	Bacteria(100);Proteobacteria(98);Gammaproteobacteria(97);Enterobacteriales(90);Enterobacteriaceae(90);unclassified;
+3short+2	Bacteria(100);Proteobacteria(97);Gammaproteobacteria(97);Enterobacteriales(78);Enterobacteriaceae(78);unclassified;
+5shorth+2	Bacteria(61);unclassified;unclassified;unclassified;unclassified;unclassified;
+6del2	Bacteria(100);Proteobacteria(98);Gammaproteobacteria(98);unclassified;unclassified;unclassified;
+7del4	Bacteria(100);Proteobacteria(95);Gammaproteobacteria(93);Enterobacteriales(74);Enterobacteriaceae(74);unclassified;
+8insert1	Bacteria(100);Proteobacteria(100);Gammaproteobacteria(100);Enterobacteriales(69);Enterobacteriaceae(69);unclassified;
+9insert4	Bacteria(100);Proteobacteria(99);Gammaproteobacteria(99);Enterobacteriales(71);Enterobacteriaceae(71);unclassified;
+10substitute1	Bacteria(97);Proteobacteria(94);Gammaproteobacteria(93);Enterobacteriales(60);Enterobacteriaceae(60);unclassified;
+11substitute4	Bacteria(100);Proteobacteria(99);Gammaproteobacteria(97);Enterobacteriales(65);Enterobacteriaceae(65);unclassified;
+12differentregion	Bacteria(99);Proteobacteria(96);Gammaproteobacteria(96);Enterobacteriales(76);Enterobacteriaceae(76);Escherichia-Shigella(51);
+13differentregion	Bacteria(99);Proteobacteria(95);Gammaproteobacteria(95);Enterobacteriales(80);Enterobacteriaceae(80);Escherichia-Shigella(60);
+14differentregion	Bacteria(98);Proteobacteria(93);Gammaproteobacteria(89);Enterobacteriales(68);Enterobacteriaceae(68);unclassified;
+4shorth-4	Bacteria(57);unclassified;unclassified;unclassified;unclassified;unclassified;

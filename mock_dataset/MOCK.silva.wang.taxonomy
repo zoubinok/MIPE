@@ -1,0 +1,14 @@
+1	Bacteria(98);Proteobacteria(72);Gammaproteobacteria(59);unclassified;unclassified;unclassified;
+2short-4	Bacteria(92);Proteobacteria(72);Gammaproteobacteria(57);unclassified;unclassified;unclassified;
+3short+2	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified;
+4shorth-4	Bacteria(94);Proteobacteria(58);unclassified;unclassified;unclassified;unclassified;
+5shorth+2	Bacteria(98);Proteobacteria(78);Gammaproteobacteria(59);unclassified;unclassified;unclassified;
+6del2	Bacteria(96);Proteobacteria(53);unclassified;unclassified;unclassified;unclassified;
+7del4	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified;
+8insert1	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified;
+9insert4	Bacteria(96);Proteobacteria(56);unclassified;unclassified;unclassified;unclassified;
+10substitute1	Bacteria(96);Proteobacteria(57);unclassified;unclassified;unclassified;unclassified;
+11substitute4	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified;
+12differentregion	Bacteria(96);Proteobacteria(59);unclassified;unclassified;unclassified;unclassified;
+13differentregion	Bacteria(96);Proteobacteria(60);unclassified;unclassified;unclassified;unclassified;
+14differentregion	Bacteria(98);Proteobacteria(78);Gammaproteobacteria(59);unclassified;unclassified;unclassified;

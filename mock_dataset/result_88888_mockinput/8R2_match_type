@@ -1,0 +1,11 @@
+Seq_name	Forward or reverse	Match_type	Primer-binding site	MisMatches in last 4 nt	Mismatches	If matching	Completeness	Taxonomic information
+>1	Reverse	===========A========	TTGAAGAGTTTGATCATGGCTCAGATTG	0	1	Y	1	Bacteria(98);Proteobacteria(72);Gammaproteobacteria(59);unclassified;unclassified;unclassified
+>2short-4	Reverse	....=======A========	TTTGATCATGGCTCAGATTG	4	5	N	0.8	Bacteria(92);Proteobacteria(72);Gammaproteobacteria(57);unclassified;unclassified;unclassified
+>3short+2	Reverse	===========A========	GAAGAGTTTGATCATGGCTCAGATTG	0	1	Y	1	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified
+>6del2	Reverse	GA==A======A========	AATTGAAGATTGATCATGGCTCAGATTG	2	4	N	1	Bacteria(96);Proteobacteria(53);unclassified;unclassified;unclassified;unclassified
+>7del4	Reverse	=====ddTG==A====CAGA	GAAATTGAGAGTTGTCATGGCCAGATTG	0	9	N	1	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified
+>8insert1	Reverse	=====c======A========	TGAAGAGTCTTGATCATGGCTCAGATTG	0	2	N	1	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified
+>9insert4	Reverse	======c=====A========	AAGAGAGTTCTGATCATGGCTCAGATTG	0	2	N	1	Bacteria(96);Proteobacteria(56);unclassified;unclassified;unclassified;unclassified
+>10substitute1	Reverse	=====A=====A========	TTGAAGAGTATGATCATGGCTCAGATTG	0	2	N	1	Bacteria(96);Proteobacteria(57);unclassified;unclassified;unclassified;unclassified
+>11substitute4	Reverse	===CA===T==A=A======	TTGAAGACATTGTTCATAGCTCAGATTG	1	5	N	1	Bacteria(93);Proteobacteria(63);Gammaproteobacteria(53);unclassified;unclassified;unclassified
+>Ref16SJ01695	Reverse	===========A========	TTGAAGAGTTTGATCATGGCTCAGATTG	0	1	Y	1
