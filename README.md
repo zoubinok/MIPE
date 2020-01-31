@@ -88,8 +88,8 @@ You can delete any file you want but you'd better keep ssu_merge_88888.silva.wan
   
 2.2.1 HMMER alignment  
 I suggest you to use HMMER to align as I prepared some scripts to support it. If you use HMMER to align, please use hmmreformat_nosto.pl (with stockholm file) or hmmreformat.pl (without stockholm file) to reformat it.  
-$perl ./scripts/hmmreformat_nosto.pl <input_align> <output>  
-$perl ./scripts/hmmreformat_nosto.pl <input_sto> <output_align> <output>  
+$perl ./scripts/hmmreformat_nosto.pl input_align output  
+$perl ./scripts/hmmreformat_nosto.pl input_sto output_align output  
   
 
 #######################################################################################################################################
