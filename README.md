@@ -32,7 +32,7 @@ Download SILVA_119_LSURef_tax_silva_full_align_trunc.fasta.gz from SILVA website
   
 $wget https://www.arb-silva.de/fileadmin/silva_databases/release_119/Exports/SILVA_119_LSURef_tax_silva_full_align_trunc.fasta.gz  
 $gunzip -c SILVA_119_LSURef_tax_silva_full_align_trunc.fasta.gz > SILVA_119_LSURef_tax_silva_full_align_trunc.fasta  
-$./mothur "#get.seqs(fasta=SILVA_119_LSURef_tax_silva_full_align_trunc.fasta,accnos=v119silva.LSU.silva.tax)"  
+$../mothur "#get.seqs(fasta=SILVA_119_LSURef_tax_silva_full_align_trunc.fasta,accnos=v119silva.LSU.silva.tax)"  
 $mv SILVA_119_LSURef_tax_silva_full_align_trunc.pick.fasta v119silva.LSU.fasta   
 $cd ..  
 
