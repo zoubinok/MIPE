@@ -1,5 +1,3 @@
-#MIPE
-
 MIPE: Metagenome based community structure explorer and primer evaluation tool
 Version 2.0.0
 MIPE (MIcrobiota Prior knowledge Explorer) is a metagenome based community structure explorer and primer evaluation tool. With a metagenome dataset input, MIPE demonstrates the detailed composition taxonomy information, and the coverage of the primer of interest.
