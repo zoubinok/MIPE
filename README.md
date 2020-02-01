@@ -15,7 +15,7 @@ Installation: Clone or download this repository. MIPE contains some perl scripts
 $chmod 755 mothur #Mothur version 1.33.3  
   
 You can also use other versions of mothur but I haven't tested them. Please check the names of mothur output.  
-Download hmmper 3.1b2 (http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz) and install it into the environment variable.  
+Download HMMER 3.1b2 (http://eddylab.org/software/hmmer/hmmer-3.1b2.tar.gz) and install it into the environment variable.  
 
 MIPE dependences downloading If you use the SILVA reference files you should be aware of their dual-use license https://www.arb-silva.de/silva-license-information  
 
