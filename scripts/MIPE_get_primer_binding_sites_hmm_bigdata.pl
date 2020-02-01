@@ -139,7 +139,7 @@ sub get_primer_suite
 
 MIPE: Metagenome based community structure explorer and primer evaluation tool. Version 2.0.0
 
-This script is used to get primer binding sites from align file (ssu_merge_xxxxx_.pick.filter.fasta). You can also align by yourself but please add the reference fasta at the end before aligning and change the name of aligned file as ssu_merge_xxxxx_.pick.filter.fasta (xxxxx is the sign of this duty).
+This script is used to get primer binding sites from align file (ssu_merge_xxxxx.pick.filter.fasta). You can also align by yourself but please add the reference fasta at the end before aligning and change the name of aligned file as ssu_merge_xxxxx.pick.filter.fasta (xxxxx is the sign of this duty).
 
 =head1 Usage
 
