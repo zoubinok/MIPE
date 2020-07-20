@@ -87,9 +87,9 @@ $rm -f *88888* *tmp* 88888* *.log
 You can delete any file you want but you'd better keep ssu_merge_88888.silva.wang.taxonomy and ssu_merge_88888.pick.filter.fasta as they are the alignment and taxonomy files. The output files are in result_88888_mockinput. All *F_match_type *R_match_type *F.stat *R.stat are results of degenerate primers.  
   
 2.2.1 HMMER alignment  
-I suggest you to use HMMER to align as I prepared some scripts to support it. If you use HMMER to align, please use hmmreformat_nosto.pl (with stockholm file) or hmmreformat.pl (without stockholm file) to reformat it.  
+I suggest you to use HMMER to align as I prepared some scripts to support it. If you use HMMER to align, please use hmmreformat_nosto.pl (without stockholm file) or hmmreformat.pl (with stockholm file) to reformat it.  
 $perl ./scripts/hmmreformat_nosto.pl input_align output  
-$perl ./scripts/hmmreformat_nosto.pl input_sto output_align output  
+$perl ./scripts/hmmreformat.pl input_sto output_align output  
   
 
 #######################################################################################################################################
