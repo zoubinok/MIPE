@@ -40,7 +40,7 @@ close(HMMSTO);
 #--------------------------------------------------------------------------------
 
 		
-system("/home/server/hmmer-3.1b2-linux-intel-x86_64/easel/miniapps/esl-reformat afa $ARGV[0] > $ARGV[1]"); #change PATH based on your system.
+system("esl-reformat afa $ARGV[0] > $ARGV[1]"); #change PATH based on your system.
 #system("perl quhuanhang.zb.pl $pname:tmp_pbsite_candidate_normal.align $pname:tmp_pbsite_candidate_one.align");
 
 #--------------------------------------------------------------------------------
