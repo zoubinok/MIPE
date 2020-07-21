@@ -45,7 +45,7 @@ You can just type the script without any options to get help.
   
 2.1 Pipeline: SSU primer evaluation  
 
-Prepare an <input> multiple fasta file, a formatted <primer_file>, a proper <reference_file> and put them in MIPE directory.  
+Prepare an <input> multiple fasta file, a formatted <primer_file>, a proper <reference_file> and put them in MIPE directory.  #important
 To choose a proper reference file is the most important. Please make sure the reference fasta and primer can get well aligned as this position is the standard to find primer binding site.     
   
 The file of primers should be formatted. Primer format:"8F:AGAGTTTGATYMTGGCTCAG". Forward primer name: end with F and no R or r is allowed in name. Reverse primer name: end with R and no F or f is allowed in name.    
