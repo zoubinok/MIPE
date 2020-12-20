@@ -56,8 +56,8 @@ $cp ./mock_dataset/Ref_16S2.fasta ./ #end with .fasta
 $cp ./mock_dataset/mockprimer8.txt ./  
 $perl ./scripts/MIPE_check_import_format.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Change your input file if any ERR occurs.  
 $perl ./scripts/MIPE_alignment_taxonomy_hmm.pl -i mockinput.fasta -r Ref_16S2.fasta -s 10 -c 4 -t 50 -n 88888  
-$perl ./scripts/MIPE_Ref_primer_align.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Please make sure that all non-degenerate format primers of one degenerate primer are in the same position of the alignment, if not please change it by yourself.  
-$perl ./scripts/MIPE_get_primer_binding_sites_hmm_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -l 4 -k 01 -n 100  
+$perl ./scripts/MIPE_Ref_primer_align.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Please make sure that all non-degenerate format primers of one degenerate primer are in the same position of the alignment (candidate_Ref_16S2.align), if not please change it by yourself.  
+$perl ./scripts/MIPE_get_primer_binding_sites_hmm_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -l 4 -k 01 -n 88888  
 $perl ./scripts/MIPE_matchtype_stat_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -w ssu_merge_88888.silva.wang.taxonomy -n 88888 -r Ref_16S2.fasta  
 $rm -f *88888* *tmp* 88888* *.log   
 
@@ -79,8 +79,8 @@ $cp ./mock_dataset/ssu_merge_88888.silva.wang.taxonomy  ./
 $cp ./mock_dataset/ssu_merge_88888.pick.filter.fasta ./  
   
 $perl ./scripts/MIPE_check_import_format.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Change your input file if any ERR occurs.  
-$perl ./scripts/MIPE_Ref_primer_align.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Please make sure that all non-degenerate format primers of one degenerate primer are in the same position of the alignment, if not please change it by yourself.    
-$perl ./scripts/MIPE_get_primer_binding_sites_hmm_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -l 4 -k 01 -n 100  
+$perl ./scripts/MIPE_Ref_primer_align.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -n 88888 #Please make sure that all non-degenerate format primers of one degenerate primer are in the same position of the alignment  (candidate_Ref_16S2.align), if not please change it by yourself.    
+$perl ./scripts/MIPE_get_primer_binding_sites_hmm_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -r Ref_16S2.fasta -l 4 -k 01 -n 88888  
 $perl ./scripts/MIPE_matchtype_stat_bigdata.pl -i mockinput.fasta -p mockprimer8.txt -w ssu_merge_88888.silva.wang.taxonomy -n 88888 -r Ref_16S2.fasta  
 $rm -f *88888* *tmp* 88888* *.log   
 
