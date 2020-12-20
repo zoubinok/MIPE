@@ -65,7 +65,7 @@ You can delete any file you want but you'd better keep ssu_merge_88888.silva.wan
   
 2.2 Pipeline: any gene primer evaluation  
   
-Prepare an <input> multiple fasta file, a formatted <primer_file>, a proper <reference_file>, aligned file by yourself (please add the reference fasta at the end before aligning and change the name of aligned file as ssu_merge_xxxxx_.pick.filter.fasta, every fasta-format gene should only has two lines: the first line is title,like '>XXX', the second line is nucleotide alignment), a taxonomy file in mothur format(you can edit it yourself and change the name as ssu_merge_xxxxx_.silva.wang.taxonomy) and put them in MIPE directory.  
+Prepare an <input> multiple fasta file, a formatted <primer_file>, a proper <reference_file>, aligned file by yourself (please add the reference fasta at the end before aligning and change the name of aligned file as ssu_merge_xxxxx.pick.filter.fasta, every fasta-format gene should only has two lines: the first line is title,like '>XXX', the second line is nucleotide alignment), a taxonomy file in mothur format(you can edit it yourself and change the name as ssu_merge_xxxxx.silva.wang.taxonomy) and put them in MIPE directory.  
   
 To choose a proper reference file is the most important. Please make sure the reference fasta and primer can get well aligned as this position is the standard to find primer binding site.   
   
