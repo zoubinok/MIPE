@@ -11,3 +11,5 @@ bigref.fasta #The reference database of 381 representing sequences of AmoA/pmoA.
 smallref.fasta #The reference database of manually identified 63 full-length AmoA/PmoA amino acid sequences whose taxonomic information were already reviewed.
 
 ssu_merge_01045.fasta and ssu_merge_01045.silva.wang.taxonomy #Metagenomic data collected from CAMERA database.
+
+ssu_merge_14972.fasta and ssu_merge_14972.silva.wang.taxonomy #Metatranscriptomic data collected from CAMERA database.
